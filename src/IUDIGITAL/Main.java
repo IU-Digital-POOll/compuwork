@@ -73,6 +73,8 @@ public class Main {
 
 //metodo para crear empleado,eliminar registro empleado, actualizar registro empleado
 
+
+        // crear empleado
         System.out.println("Desea crear un empleado? (s/n)");
         String respuesta = scanner.nextLine();
         if (respuesta.equals("s")) {
@@ -82,7 +84,7 @@ public class Main {
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
             apellido = scanner.nextLine();
-            System.out.println("Ingrese el tipo de empleado: ");
+            System.out.println("Ingrese el tipo de empleado permanente o temporal: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
             telefono = scanner.nextLine();
@@ -117,7 +119,7 @@ public class Main {
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
             apellido = scanner.nextLine();
-            System.out.println("Ingrese el tipo de empleado: ");
+            System.out.println("Ingrese el tipo de empleado permanente o temporal: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
             telefono = scanner.nextLine();
@@ -168,7 +170,7 @@ public class Main {
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
             apellido = scanner.nextLine();
-            System.out.println("Ingrese el tipo de empleado: ");
+            System.out.println("Ingrese el tipo de empleado permanente o temporal: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
             telefono = scanner.nextLine();
@@ -213,7 +215,7 @@ public class Main {
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
             apellido = scanner.nextLine();
-            System.out.println("Ingrese el tipo de empleado: ");
+            System.out.println("Ingrese el tipo de empleado permanente o temporal: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
             telefono = scanner.nextLine();
@@ -235,6 +237,8 @@ public class Main {
         }
 
 //crear departamentos eliminar o modificar
+
+        //crear departamento
         System.out.println("Desea crear un departamento? (s/n)");
         respuesta = scanner.nextLine();
         if (respuesta.equals("s")) {
