@@ -413,7 +413,7 @@ public class Main {
         //generar reporte desenpenio
         //asignar empleado a departamento
         //visualizacion empleado
-        //generar reporte departamental,individual
+        //generar reporte departamental,individualrsh
 
 
 
