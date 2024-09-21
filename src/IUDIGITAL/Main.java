@@ -10,14 +10,16 @@ public class Main {
 //crear un objeto de la clase empleado por teclado
         System.out.println("Ingrese la identidad del empleado: ");
         long identidad = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Ingrese el nombre del empleado: ");
         String nombre = scanner.nextLine();
         System.out.println("Ingrese el apellido del empleado: ");
         String apellido = scanner.nextLine();
         System.out.println("Ingrese el tipo de empleado temporal o permanente: ");
         String tipoEmpleado = scanner.nextLine();
-        System.out.println("Ingrese el telefono del empleado: ");
+        System.out.println("Ingrese el telefono del empleado: \n ");
         long telefono = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Ingrese el correo del empleado: ");
         String correo = scanner.nextLine();
         System.out.println("Ingrese la direccion del empleado: ");
