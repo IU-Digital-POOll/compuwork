@@ -2,7 +2,7 @@ package IUDIGITAL;
 
 public class Departamento {
    //crear atributos id,nombredepartamento,jefe,listaempleados,descripcion,gerente
-    private int id;
+    private long  id;
     private String nombreDepartamento;
     private String jefe;
     private String listaEmpleados;
@@ -10,7 +10,7 @@ public class Departamento {
     private String gerente;
 
     //crear constructor
-    public Departamento(int id, String nombreDepartamento, String jefe, String listaEmpleados, String descripcion, String gerente) {
+    public Departamento(long id, String nombreDepartamento, String jefe, String listaEmpleados, String descripcion, String gerente) {
         this.id = id;
         this.nombreDepartamento = nombreDepartamento;
         this.jefe = jefe;
@@ -20,7 +20,7 @@ public class Departamento {
     }
 
     //crear getters y setters
-    public int getId() {
+    public long getId() {
         return id;
     }
 

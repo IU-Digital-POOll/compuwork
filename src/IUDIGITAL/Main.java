@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 //crear un objeto de la clase empleado por teclado
         System.out.println("Ingrese la identidad del empleado: ");
-        String identidad = scanner.nextLine();
+        long identidad = scanner.nextInt();
         System.out.println("Ingrese el nombre del empleado: ");
         String nombre = scanner.nextLine();
         System.out.println("Ingrese el apellido del empleado: ");
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Ingrese el tipo de empleado temporal o permanente: ");
         String tipoEmpleado = scanner.nextLine();
         System.out.println("Ingrese el telefono del empleado: ");
-        String telefono = scanner.nextLine();
+        long telefono = scanner.nextInt();
         System.out.println("Ingrese el correo del empleado: ");
         String correo = scanner.nextLine();
         System.out.println("Ingrese la direccion del empleado: ");
@@ -77,7 +77,7 @@ public class Main {
         String respuesta = scanner.nextLine();
         if (respuesta.equals("s")) {
             System.out.println("Ingrese la identidad del empleado: ");
-            identidad = scanner.nextLine();
+            identidad = scanner.nextInt();
             System.out.println("Ingrese el nombre del empleado: ");
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
@@ -85,7 +85,7 @@ public class Main {
             System.out.println("Ingrese el tipo de empleado: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
-            telefono = scanner.nextLine();
+            telefono = scanner.nextInt();
             System.out.println("Ingrese el correo del empleado: ");
             correo = scanner.nextLine();
             System.out.println("Ingrese la direccion del empleado: ");
@@ -112,7 +112,7 @@ public class Main {
         respuesta = scanner.nextLine();
         if (respuesta.equals("s")) {
             System.out.println("Ingrese la identidad del empleado: ");
-            identidad = scanner.nextLine();
+            identidad = scanner.nextInt();
             System.out.println("Ingrese el nombre del empleado: ");
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
@@ -120,7 +120,7 @@ public class Main {
             System.out.println("Ingrese el tipo de empleado: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
-            telefono = scanner.nextLine();
+            telefono = scanner.nextInt();
             System.out.println("Ingrese el correo del empleado: ");
             correo = scanner.nextLine();
             System.out.println("Ingrese la direccion del empleado: ");
@@ -163,7 +163,7 @@ public class Main {
             gerente = scanner.nextLine();
             departamento = new Departamento(id, nombreDepartamento, jefe, listaEmpleados, descripcion, gerente);
             System.out.println("Ingrese la identidad del empleado: ");
-            identidad = scanner.nextLine();
+            identidad = scanner.nextInt();
             System.out.println("Ingrese el nombre del empleado: ");
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
@@ -171,7 +171,7 @@ public class Main {
             System.out.println("Ingrese el tipo de empleado: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
-            telefono = scanner.nextLine();
+            telefono = scanner.nextInt();
             System.out.println("Ingrese el correo del empleado: ");
             correo = scanner.nextLine();
             System.out.println("Ingrese la direccion del empleado: ");
@@ -208,7 +208,7 @@ public class Main {
             gerente = scanner.nextLine();
             departamento = new Departamento(id, nombreDepartamento, jefe, listaEmpleados, descripcion, gerente);
             System.out.println("Ingrese la identidad del empleado: ");
-            identidad = scanner.nextLine();
+            identidad = scanner.nextInt();
             System.out.println("Ingrese el nombre del empleado: ");
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
@@ -216,7 +216,7 @@ public class Main {
             System.out.println("Ingrese el tipo de empleado: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
-            telefono = scanner.nextLine();
+            telefono = scanner.nextInt();
             System.out.println("Ingrese el correo del empleado: ");
             correo = scanner.nextLine();
             System.out.println("Ingrese la direccion del empleado: ");
@@ -328,7 +328,7 @@ public class Main {
             gerente = scanner.nextLine();
             departamento = new Departamento(id, nombreDepartamento, jefe, listaEmpleados, descripcion, gerente);
             System.out.println("Ingrese la identidad del empleado: ");
-            identidad = scanner.nextLine();
+            identidad = scanner.nextInt();
             System.out.println("Ingrese el nombre del empleado: ");
             nombre = scanner.nextLine();
             System.out.println("Ingrese el apellido del empleado: ");
@@ -336,7 +336,7 @@ public class Main {
             System.out.println("Ingrese el tipo de empleado: ");
             tipoEmpleado = scanner.nextLine();
             System.out.println("Ingrese el telefono del empleado: ");
-            telefono = scanner.nextLine();
+            telefono = scanner.nextInt();
             System.out.println("Ingrese el correo del empleado: ");
             correo = scanner.nextLine();
             System.out.println("Ingrese la direccion del empleado: ");

@@ -2,11 +2,11 @@ package IUDIGITAL;
 
 public class Empleado {
     //crear atributos identidad,nombre,apellido,tipo empleado, telefono,correo,direccion,fechacontratacion,cargo,salario
-    private String identidad;
+    private long identidad;
     private String nombre;
     private String apellido;
     private String tipoEmpleado;
-    private String telefono;
+    private long telefono;
     private String correo;
     private String direccion;
     private String fechaContratacion;
@@ -14,7 +14,7 @@ public class Empleado {
     private double salario;
 
     //crear constructor
-    public Empleado(String identidad, String nombre, String apellido, String tipoEmpleado, String telefono, String correo, String direccion, String fechaContratacion, String cargo, double salario) {
+    public Empleado(long identidad, String nombre, String apellido, String tipoEmpleado, long telefono, String correo, String direccion, String fechaContratacion, String cargo, double salario) {
         this.identidad = identidad;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -28,11 +28,11 @@ public class Empleado {
     }
 
     //crear getters y setters
-    public String getIdentidad() {
+    public long getIdentidad() {
         return identidad;
     }
 
-    public void setIdentidad(String identidad) {
+    public void setIdentidad(long identidad) {
         this.identidad = identidad;
     }
 
@@ -60,11 +60,11 @@ public class Empleado {
         this.tipoEmpleado = tipoEmpleado;
     }
 
-    public String getTelefono() {
+    public long getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(long telefono) {
         this.telefono = telefono;
     }
 

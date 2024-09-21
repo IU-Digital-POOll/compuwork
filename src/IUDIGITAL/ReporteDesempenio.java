@@ -2,7 +2,7 @@ package IUDIGITAL;
 
 public class ReporteDesempenio {
     //crear atributos id,empleados,fechareporte,puntajedesempenio,comentario,departamento
-    private int id;
+    private long id;
     private String empleados;
     private String fechaReporte;
     private int puntajeDesempenio;
@@ -10,7 +10,7 @@ public class ReporteDesempenio {
     private String departamento;
 
     //crear constructor
-    public ReporteDesempenio(int id, String empleados, String fechaReporte, int puntajeDesempenio, String comentario, String departamento) {
+    public ReporteDesempenio(long id, String empleados, String fechaReporte, int puntajeDesempenio, String comentario, String departamento) {
         this.id = id;
         this.empleados = empleados;
         this.fechaReporte = fechaReporte;
@@ -20,7 +20,7 @@ public class ReporteDesempenio {
     }
 
     //crear getters y setters
-    public int getId() {
+    public long getId() {
         return id;
     }
 
