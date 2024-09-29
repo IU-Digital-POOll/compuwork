@@ -5,12 +5,12 @@ public class ReporteDesempenio {
     private long id;
     private String empleados;
     private String fechaReporte;
-    private int puntajeDesempenio;
+    private double puntajeDesempenio;
     private String comentario;
     private String departamento;
 
     //crear constructor
-    public ReporteDesempenio(long id, String empleados, String fechaReporte, int puntajeDesempenio, String comentario, String departamento) {
+    public ReporteDesempenio(long id, String empleados, String fechaReporte, double puntajeDesempenio, String comentario, String departamento) {
         this.id = id;
         this.empleados = empleados;
         this.fechaReporte = fechaReporte;
@@ -44,11 +44,11 @@ public class ReporteDesempenio {
         this.fechaReporte = fechaReporte;
     }
 
-    public int getPuntajeDesempenio() {
+    public double getPuntajeDesempenio() {
         return puntajeDesempenio;
     }
 
-    public void setPuntajeDesempenio(int puntajeDesempenio) {
+    public void setPuntajeDesempenio(double puntajeDesempenio) {
         this.puntajeDesempenio = puntajeDesempenio;
     }
 
